@@ -1,0 +1,9 @@
+/* CSS for QuiverXBlock */
+
+.quiver_block .count {
+    font-weight: bold;
+}
+
+.quiver_block p {
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+setup.py
+quiver/__init__.py
+quiver/quiver.py
+quiver/static/README.txt
+quiver/static/css/quiver.css
+quiver/static/html/quiver.html
+quiver/static/js/src/quiver.js
+quiver_xblock.egg-info/PKG-INFO
+quiver_xblock.egg-info/SOURCES.txt
+quiver_xblock.egg-info/dependency_links.txt
+quiver_xblock.egg-info/entry_points.txt
+quiver_xblock.egg-info/requires.txt
+quiver_xblock.egg-info/top_level.txt
