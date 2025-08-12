@@ -4,21 +4,27 @@ from importlib.resources import files
 
 from web_fragments.fragment import Fragment
 from xblock.core import XBlock
-from xblock.fields import Integer, Scope
+from xblock.fields import Integer, Scope, String
+from xblockutils.studio_editable import StudioEditableXBlockMixin
 
 
 class QuiverXBlock(XBlock):
     """
-    TO-DO: document what your XBlock does.
+    TO-DO: Plan out both the exact functionality and the UI of the XBlock
     """
 
     # Fields are defined on the class.  You can access them in your code as
     # self.<fieldname>.
 
-    # TO-DO: delete count, and define your own fields.
-    count = Integer(
-        default=0, scope=Scope.user_state,
-        help="A simple counter, to show something happening",
+    quiver_url = String(
+        help="Public URL for q.uiver.app",
+        default="https://q.uiver.app/?q=",
+        scope=Scope.content,
+    )
+    height = String(
+        help="height of the iframe window",
+        default="500px",
+        scope=Scope.content,
     )
 
     def resource_string(self, path):

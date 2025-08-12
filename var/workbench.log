@@ -1,18 +1,105 @@
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" IS NULL AND "workbench_xblockstate"."scope" = 'all' AND "workbench_xblockstate"."scope_id" IS NULL AND "workbench_xblockstate"."tag" IS NULL AND "workbench_xblockstate"."user_id" = 'student_1') LIMIT 21; args=('all', 'student_1'); alias=default
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" IS NULL AND "workbench_xblockstate"."scope" = 'all' AND "workbench_xblockstate"."scope_id" IS NULL AND "workbench_xblockstate"."tag" IS NULL AND "workbench_xblockstate"."user_id" = 'student_1') LIMIT 21; args=('all', 'student_1'); alias=default
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" IS NULL AND "workbench_xblockstate"."scope" = 'all' AND "workbench_xblockstate"."scope_id" IS NULL AND "workbench_xblockstate"."tag" IS NULL AND "workbench_xblockstate"."user_id" = 'student_1') LIMIT 21; args=('all', 'student_1'); alias=default
-(0.001) UPDATE "workbench_xblockstate" SET "scope" = 'all', "scope_id" = NULL, "user_id" = 'student_1', "scenario" = NULL, "tag" = NULL, "created" = '2025-08-11 19:35:00.731024', "state" = '{
-  "user_info": {
-    "quiverxblock.quiver.d0.u0.acid_aside": 7730
-  }
-}' WHERE "workbench_xblockstate"."id" = 98; args=('all', 'student_1', '2025-08-11 19:35:00.731024', '{\n  "user_info": {\n    "quiverxblock.quiver.d0.u0.acid_aside": 7730\n  }\n}', 98); alias=default
-"POST /aside_handler/quiverxblock.quiver.d0.u0.acid_aside/check_storage/SUFFIX1444?student=student_1&QUERY=1444&SCOPE=user_info HTTP/1.1" 200 245
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" = 'quiverxblock' AND "workbench_xblockstate"."scope" = 'usage' AND "workbench_xblockstate"."scope_id" = 'quiverxblock.quiver.d0.u0.acid_aside' AND "workbench_xblockstate"."tag" = 'quiver' AND "workbench_xblockstate"."user_id" IS NULL) LIMIT 21; args=('quiverxblock', 'usage', 'quiverxblock.quiver.d0.u0.acid_aside', 'quiver'); alias=default
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" = 'quiverxblock' AND "workbench_xblockstate"."scope" = 'usage' AND "workbench_xblockstate"."scope_id" = 'quiverxblock.quiver.d0.u0.acid_aside' AND "workbench_xblockstate"."tag" = 'quiver' AND "workbench_xblockstate"."user_id" IS NULL) LIMIT 21; args=('quiverxblock', 'usage', 'quiverxblock.quiver.d0.u0.acid_aside', 'quiver'); alias=default
-(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" = 'quiverxblock' AND "workbench_xblockstate"."scope" = 'usage' AND "workbench_xblockstate"."scope_id" = 'quiverxblock.quiver.d0.u0.acid_aside' AND "workbench_xblockstate"."tag" = 'quiver' AND "workbench_xblockstate"."user_id" IS NULL) LIMIT 21; args=('quiverxblock', 'usage', 'quiverxblock.quiver.d0.u0.acid_aside', 'quiver'); alias=default
-(0.001) UPDATE "workbench_xblockstate" SET "scope" = 'usage', "scope_id" = 'quiverxblock.quiver.d0.u0.acid_aside', "user_id" = NULL, "scenario" = 'quiverxblock', "tag" = 'quiver', "created" = '2025-08-11 19:35:00.732887', "state" = '{
-  "user_state_summary": {
-    "quiverxblock.quiver.d0.u0.acid_aside": 9057
-  }
-}' WHERE "workbench_xblockstate"."id" = 99; args=('usage', 'quiverxblock.quiver.d0.u0.acid_aside', 'quiverxblock', 'quiver', '2025-08-11 19:35:00.732887', '{\n  "user_state_summary": {\n    "quiverxblock.quiver.d0.u0.acid_aside": 9057\n  }\n}', 99); alias=default
-"POST /aside_handler/quiverxblock.quiver.d0.u0.acid_aside/check_storage/SUFFIX7059?student=student_1&QUERY=7059&SCOPE=user_state_summary HTTP/1.1" 200 272
+(0.000) UPDATE "workbench_xblockstate" SET "scope" = 'children', "scope_id" = 'three-thumbs-at-once.vertical_demo.d0.u0', "user_id" = NULL, "scenario" = 'three-thumbs-at-once', "tag" = 'vertical_demo', "created" = '2025-08-11 20:21:09.488191', "state" = '{
+  "children": [
+    "three-thumbs-at-once.thumbs.d0.u0",
+    "three-thumbs-at-once.thumbs.d1.u0",
+    "three-thumbs-at-once.thumbs.d2.u0"
+  ]
+}' WHERE "workbench_xblockstate"."id" = 151; args=('children', 'three-thumbs-at-once.vertical_demo.d0.u0', 'three-thumbs-at-once', 'vertical_demo', '2025-08-11 20:21:09.488191', '{\n  "children": [\n    "three-thumbs-at-once.thumbs.d0.u0",\n    "three-thumbs-at-once.thumbs.d1.u0",\n    "three-thumbs-at-once.thumbs.d2.u0"\n  ]\n}', 151); alias=default
+(0.000) SELECT "workbench_xblockstate"."id", "workbench_xblockstate"."scope", "workbench_xblockstate"."scope_id", "workbench_xblockstate"."user_id", "workbench_xblockstate"."scenario", "workbench_xblockstate"."tag", "workbench_xblockstate"."created", "workbench_xblockstate"."state" FROM "workbench_xblockstate" WHERE ("workbench_xblockstate"."scenario" = 'three-thumbs-at-once' AND "workbench_xblockstate"."scope" = 'parent' AND "workbench_xblockstate"."scope_id" = 'three-thumbs-at-once.vertical_demo.d0.u0' AND "workbench_xblockstate"."tag" = 'vertical_demo' AND "workbench_xblockstate"."user_id" IS NULL) LIMIT 21; args=('three-thumbs-at-once', 'parent', 'three-thumbs-at-once.vertical_demo.d0.u0', 'vertical_demo'); alias=default
+(0.000) UPDATE "workbench_xblockstate" SET "scope" = 'parent', "scope_id" = 'three-thumbs-at-once.vertical_demo.d0.u0', "user_id" = NULL, "scenario" = 'three-thumbs-at-once', "tag" = 'vertical_demo', "created" = '2025-08-11 19:34:57.689808', "state" = '{
+  "parent": null
+}' WHERE "workbench_xblockstate"."id" = 92; args=('parent', 'three-thumbs-at-once.vertical_demo.d0.u0', 'three-thumbs-at-once', 'vertical_demo', '2025-08-11 19:34:57.689808', '{\n  "parent": null\n}', 92); alias=default
+"GET / HTTP/1.1" 200 1898
+"GET /static/workbench/css/workbench.css HTTP/1.1" 304 0
+"GET /static/workbench/images/header-logo.png HTTP/1.1" 304 0
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1754942568.7192097
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/agile.py first seen with mtime 1754942566.0098522
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/formatters/__init__.py first seen with mtime 1754942565.988611
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/plugin.py first seen with mtime 1754942565.98628
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/html.py first seen with mtime 1754942566.033015
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/tcl.py first seen with mtime 1754942566.0535796
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/staticfiles/storage.py first seen with mtime 1754942568.8895297
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/xblock/run_script.py first seen with mtime 1754942569.7429874
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/filters/__init__.py first seen with mtime 1754942565.9879203
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/token.py first seen with mtime 1754942565.9869294
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/php.py first seen with mtime 1754942566.0433638
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/javascript.py first seen with mtime 1754942566.034331
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/python.py first seen with mtime 1754942566.0449302
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/util.py first seen with mtime 1754942565.9874365
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/structure.py first seen with mtime 1754942207.7838295
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/compat.py first seen with mtime 1754942568.009065
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/acid/__init__.py first seen with mtime 1754942570.7203174
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/lisp.py first seen with mtime 1754942566.0368667
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/_mapping.py first seen with mtime 1754942566.0022738
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/__init__.py first seen with mtime 1754942207.783204
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/unistring.py first seen with mtime 1754942565.98718
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/ruby.py first seen with mtime 1754942566.0487504
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/xblock/utils/__init__.py first seen with mtime 1754942569.7513807
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/css.py first seen with mtime 1754942566.0217953
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/regexopt.py first seen with mtime 1754942565.9864223
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/jvm.py first seen with mtime 1754942566.035643
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/webmisc.py first seen with mtime 1754942566.0594487
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/_scheme_builtins.py first seen with mtime 1754942566.004332
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/png.py first seen with mtime 1754942565.5545912
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/ast.py first seen with mtime 1754942568.0083706
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/actionscript.py first seen with mtime 1754942566.0094392
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/modeline.py first seen with mtime 1754942565.9861102
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/filethumbs/filethumbs.py first seen with mtime 1754942207.7844603
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/problem.py first seen with mtime 1754942207.7834766
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/runtime.py first seen with mtime 1754942568.0102565
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/_css_builtins.py first seen with mtime 1754942565.9995127
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/web.py first seen with mtime 1754942566.0589824
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1754942568.7973642
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/lexer.py first seen with mtime 1754942568.009532
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/__init__.py first seen with mtime 1754942568.0081077
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/workbench/blocks.py first seen with mtime 1754942207.7884839
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/filethumbs/__init__.py first seen with mtime 1754942207.7843766
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1754942568.455673
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/styles/_mapping.py first seen with mtime 1754942566.0608723
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/data.py first seen with mtime 1754942566.0235136
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/__init__.py first seen with mtime 1754942207.783298
+File /Users/jamiealfaro/Dropbox/xblock_development/quiver/quiver/__init__.py first seen with mtime 1754939935.7029996
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/factor.py first seen with mtime 1754942566.0282495
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/content.py first seen with mtime 1754942207.7833788
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/perl.py first seen with mtime 1754942566.0430295
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/formatters/html.py first seen with mtime 1754942565.990024
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/thumbs/__init__.py first seen with mtime 1754942207.786089
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/style.py first seen with mtime 1754942565.9868028
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/lookup.py first seen with mtime 1754942568.009669
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/slider.py first seen with mtime 1754942207.783767
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/thumbs/thumbs.py first seen with mtime 1754942207.7879136
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1754942568.718469
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/parsetree.py first seen with mtime 1754942568.0098028
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexer.py first seen with mtime 1754942565.9859633
+File /Users/jamiealfaro/Dropbox/xblock_development/quiver/quiver/quiver.py first seen with mtime 1754943463.4788017
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/formatters/_mapping.py first seen with mtime 1754942565.9888575
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/__init__.py first seen with mtime 1754942565.9847782
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/exceptions.py first seen with mtime 1754942568.009219
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/_lua_builtins.py first seen with mtime 1754942566.0018082
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/workbench/services.py first seen with mtime 1754942207.788973
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/cache.py first seen with mtime 1754942568.0085902
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/__init__.py first seen with mtime 1754942565.9980886
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/xblock/utils/resources.py first seen with mtime 1754942569.7517319
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/template/context_processors.py first seen with mtime 1754942568.9484076
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/template.py first seen with mtime 1754942568.0104136
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/scripting.py first seen with mtime 1754942566.0499043
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/ext/__init__.py first seen with mtime 1754942568.0106964
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/pygen.py first seen with mtime 1754942568.009953
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/filter.py first seen with mtime 1754942565.985529
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/iolang.py first seen with mtime 1754942566.034008
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/codegen.py first seen with mtime 1754942568.0089421
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/formatter.py first seen with mtime 1754942565.9857879
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1754942568.7193117
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/styles/default.py first seen with mtime 1754942566.0619576
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/ext/pygmentplugin.py first seen with mtime 1754942568.0115788
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/styles/__init__.py first seen with mtime 1754942566.060757
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/_ast_util.py first seen with mtime 1754942568.0082495
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/acid/acid.py first seen with mtime 1754942570.7204697
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/filters.py first seen with mtime 1754942568.0093746
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1754942568.7194169
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/pygments/lexers/d.py first seen with mtime 1754942566.0227582
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/pyparser.py first seen with mtime 1754942568.010097
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/.venv/lib/python3.11/site-packages/mako/util.py first seen with mtime 1754942568.0105662
+File /opt/homebrew/Cellar/python@3.11/3.11.13/Frameworks/Python.framework/Versions/3.11/lib/python3.11/timeit.py first seen with mtime 1748975905.0
+File /Users/jamiealfaro/Dropbox/xblock_development/xblock-sdk/sample_xblocks/basic/view_counter.py first seen with mtime 1754942207.7842834
+"GET / HTTP/1.1" 200 1898
