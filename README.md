@@ -5,6 +5,6 @@ A customizable OpenEdx studio component that incorporates Quiver.app as an inter
 ```
 cd xblock-sdk   
 source .venv/bin/activate (for python environment)  
-python xblock-sdk/manage.py runserver
+python /manage.py runserver
 ```
 The custom block should be labeled "QuiverXBlock".
